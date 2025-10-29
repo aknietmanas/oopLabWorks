@@ -19,11 +19,10 @@ public class TestShape {
 
         Triangle triangle = new Triangle(a, b, c);
 
-        System.out.println("The area of circle: ", circle.calculateArea());
-        System.out.println("The perimeter of circle: ", circle.calculatePerimeter());
+        System.out.println("The area of circle: "+ circle.calculateArea());
+        System.out.println("The perimeter of circle: "+ circle.calculatePerimeter());
 
-        System.out.println("The area of triangle: ", triangle.calculateArea());
-        System.out.println("The perimeter of triangle: ", triangle.calculatePerimeter());
+        System.out.println("The area of triangle: "+ triangle.calculateArea());
+        System.out.println("The perimeter of triangle: "+ triangle.calculatePerimeter());
     }
-
 }

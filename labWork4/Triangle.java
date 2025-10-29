@@ -12,7 +12,8 @@ class Triangle extends Shape {
     }
 
     double calculateArea() {
-        return ;
+        double p = (a + b + c)/2;
+        return p * (p-a)*(p-b)*(p-c);
     }
     double calculatePerimeter() {
         return a + b + c;
